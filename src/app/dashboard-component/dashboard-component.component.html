@@ -1,0 +1,31 @@
+<div id="dashboard-component">
+  <div class="search-input">
+    <h4>Search by TagName</h4>
+    <input #searchBox id="search-box" placeholder="# Search..." (keyup)="search(searchBox.value)" />
+  </div>
+  <div>
+    <div *ngFor="let tag of tags | async"
+         (click)="selectTag(tag)" class="search-result" >
+      {{tag.name}}
+    </div>
+  </div>
+  <div class="media-title">
+    <h4>{{tagName}}</h4>
+    <!-- <h5>{{tagCount}}</h5> -->
+  </div>
+  <div class="media-content">
+    <div *ngFor="let res of media | async" class="media-item">
+      <div class="item">
+        <figure>
+          <img *ngIf="res.type === 'image'" src="{{res.images.standard_resolution.url}}" height="{{res.images.standard_resolution.height}}" width="{{res.images.standard_resolution.width}}">
+          <video *ngIf="res.type === 'video'" width="{{res.videos.standard_resolution.width}}" controls>
+            <source src="{{res.videos.standard_resolution.url}}" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+          <!-- <figcaption>Some text here</figcaption> -->
+        </figure>
+        <!-- other anchors here ... -->
+      </div>
+    </div>
+  </div>
+</div>
