@@ -20,8 +20,8 @@ Older versions produce errors.
 
 
 ```bash
-git clone https://github.com/ibenzyk/myapp.git
-cd myapp
+git clone https://github.com/ibenzyk/insta-app.git
+cd insta-app
 # install the project's dependencies
 npm install
 # watches your files and uses livereload by default
