@@ -15,7 +15,7 @@ export class TagSearchServiceService {
 
     let params = new URLSearchParams();
     params.set('q', term);
-    params.set('access_token', '3970663234.b926eae.81bb6b9d69ed40d89b647dc6e72fadfc');
+    params.set('access_token', '272855367.b6f7db4.27aee70b486a4fd7b1b5546c1da0453d');
     params.set('callback', 'JSONP_CALLBACK');
 
     return this.jsonp
@@ -29,7 +29,7 @@ export class TagSearchServiceService {
     let url = `https://api.instagram.com/v1/tags/${term}/media/recent`;
     
     let params = new URLSearchParams();
-    params.set('access_token', '3970663234.b926eae.81bb6b9d69ed40d89b647dc6e72fadfc');
+    params.set('access_token', '272855367.b6f7db4.27aee70b486a4fd7b1b5546c1da0453d');
     params.set('callback', 'JSONP_CALLBACK');
 
     return this.jsonp
