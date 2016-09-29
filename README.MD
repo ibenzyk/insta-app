@@ -21,7 +21,7 @@ Older versions produce errors.
 
 ```bash
 git clone https://github.com/ibenzyk/myapp.git
-cd insta-project
+cd myapp
 # install the project's dependencies
 npm install
 # watches your files and uses livereload by default
@@ -35,7 +35,6 @@ npm start
 - [How to start](#how-to-start)
 - [Table of Content](#table-of-content)
 - [Contributors](#contributors)
-  - [Wiki Contributors](#wiki-contributors)
 - [License](#license)
 
 # Contributors
