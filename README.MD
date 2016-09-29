@@ -1,7 +1,5 @@
 # Insta App
 
-This project was build on top of [Angular CLI](https://github.com/angular/angular-cli)
-
 `insta-app` provides the following features:
 
 - It takes a hashtag and collect submissions from Instagram
