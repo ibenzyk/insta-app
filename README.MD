@@ -1,6 +1,6 @@
 # Insta App
 
-This project was build on top of [Angular QuickStart](https://github.com/angular/quickstart)
+This project was build on top of [Angular CLI](https://github.com/angular/angular-cli)
 
 `insta-app` provides the following features:
 
@@ -22,7 +22,7 @@ Older versions produce errors.
 
 
 ```bash
-git clone https://github.com/ibenzyk/insta-project.git
+git clone https://github.com/ibenzyk/myapp.git
 cd insta-project
 # install the project's dependencies
 npm install
@@ -32,7 +32,7 @@ npm start
 
 # Table of Contents
 
-- [Insta App](#insta-pp)
+- [Insta App](#insta-app)
 - [Prerequisites](#prerequisites)
 - [How to start](#how-to-start)
 - [Table of Content](#table-of-content)
